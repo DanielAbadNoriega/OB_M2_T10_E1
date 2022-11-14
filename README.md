@@ -1,6 +1,6 @@
 # Open Bootcam: HTML&CSS.
 
-## Tema 9: Ejercicio 1.
+## Tema 10: Ejercicio 1.
 
 > 1. Crea un nuevo documento HTML con el título "Diseño Responsive con CSS"
 > 
