@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../imgs/Road.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  margin: 1rem 40%;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+}
+
+.sect-left {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0.3rem);
+  width: 30vw;
+  height: 20vh;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sect-left .elem {
+  border: 1px solid #bbb;
+  box-shadow: 0.25rem 0.25rem 1rem white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px 10px;
+  background-color: aquamarine;
+}
+
+.sect-right {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0.3rem);
+  width: 30vw;
+  height: 20vh;
+  margin: 10px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.sect-right h2 {
+  margin: 1rem;
+}
+
+@media screen and (max-width: 639px) {
+  .main {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .sect-left{
+    flex-direction: row;
+    width: 80vw;
+  }
+
+  .sect-right {
+    width: 80vw;
+  }
+}
